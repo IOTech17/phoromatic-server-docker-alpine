@@ -1,8 +1,9 @@
-Phoromatic server in a docker
+Phoromatic server in a docker container based on Alpine linux
 
 docker composer
 
-''' version: "3.8"
+``` 
+version: "3.8"
 services:
   phoromatic-server:
     image: iotech17/phoromatic-server-alpine:latest
